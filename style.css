@@ -1,0 +1,112 @@
+body{
+    background-color: lightgrey;
+}
+nav>a{
+    color: aliceblue;
+    margin: 10px 20px 100px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+div>nav{
+    margin: 50px 0px 0px 10px;
+}
+#ieie{
+    margin: 10px;
+}
+header{
+    background-image: linear-gradient(rgb(66, 252, 66), rgb(0, 82, 0));
+    margin: 8px -8px -14px -8px;
+    height: 163px;
+    
+}
+header>div>h1{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    margin: -8px 0px 0px 0px;;
+}
+header>div>p{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    
+}
+p>a::after{
+    content: ' 🔗';
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.opa{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.indent{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 1cm;
+    margin: 15px;
+}
+nav>a:hover{
+    background-color: rgb(82, 184, 82);
+    text-decoration: dashed;
+    border-radius: 8px;
+}
+main{
+    margin: auto;
+    background-color: white;  
+
+    box-shadow: 2px 2px 5px 0px rgb(0 0 0 / 51%);
+    border-radius: 5px;
+
+    min-width: 320px;
+    max-width: 800px;
+    
+}
+.robo{
+    background-image: linear-gradient(to right, rgb(68, 170, 68) , white 80%);
+    font-family: myFirstFont;
+    margin: 15px;
+}
+aside>h3{
+ background-color: rgb(2, 117, 54);
+ height: 30px;
+ border-radius: 5px;
+
+}
+aside{
+    margin: 40px 50px;
+    background-color: rgb(42, 182, 112);
+    border-radius: 5px;
+}
+aside>ul{
+    columns: 2;
+}
+footer{
+    margin: 35px 0px 0px 0px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+footer>p{
+    margin: 0;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(fontes/idroid.otf);
+    font-weight: bold;
+  }
+#mds{
+    text-align: center;
+    margin: auto;
+    background-color: green;
+    width: 800px;
+    height: 350px;
+}
+footer>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
